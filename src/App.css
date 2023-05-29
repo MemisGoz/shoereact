@@ -1,0 +1,20 @@
+.content-page{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+ 
+}
+
+#colorPickerContainer{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 1rem;
+  gap: 1rem;
+  padding: 0;
+}
+p{
+  font-size: 20.3px;
+}
