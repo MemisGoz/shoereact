@@ -9,7 +9,7 @@ const ModelViewer = ({ meshColors }) => {
   const dracoLoader = useRef(new DRACOLoader());
   dracoLoader.current.setDecoderPath('./jsm/libs/draco/gltf/'); 
 
-  const gltf = useLoader(GLTFLoader, '/shoe.glb', loader => {
+  const gltf = useLoader(GLTFLoader, './shoe.glb', loader => {
     loader.setDRACOLoader(dracoLoader.current);
   });
 
